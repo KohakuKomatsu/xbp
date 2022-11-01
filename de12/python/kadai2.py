@@ -50,12 +50,3 @@ class BgSlider():
                 time.sleep(next_time)
             except KeyboardInterrupt:
                 exit()
-
-
-if __name__ == "__main__":
-    try:
-        bg = BgSlider()
-        bg.setup()
-        bg.schedule(INTERVAL_SEC, bg.worker, False)
-    finally:
-        ctypes.windll.user32.SystemParametersInfoW(20, 0, None, 0)
