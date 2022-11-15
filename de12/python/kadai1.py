@@ -1,5 +1,4 @@
 print("今日は剣道の全国大会だ！神奈川大学は運よく決勝戦に進出することができた。あなたは大将前3人は引き分け。緊張の中堅戦が今始まる")
-name=input("大将であるあなたの苗字は？")
 
 selecta = int(input("数字の1から3を選べ"))
 if selecta ==1:
@@ -17,23 +16,22 @@ if selectb == 1:
 print("特に何もなく引き分け")
 
 elif selectb == 2:
-print("")
+print("最初に一本取ったが、ラスト5秒で打たれてしまい、引き分け")
 
 elif selectb == 3:
-print("）
-print/“"
-"やはり遅刻になった。そのとき、あなたは")
+print("中盤に小手を取られたが、直後に面を取り返した")
+print/("タイで回ってきた大将戦さああなたはどうする？")
 
-selectc = int(input（！")）
+
+selectc = int(input("数字の1から3を選べ"))
 if selectc == 1:
-print"
-”. ")
+print ("焦って突っ込んでしまいあっという間に二本負け")
 
 elif selecte == 2:
-print(）
+print("まさかの二振りで優勝")
 
 elif selecte ==3:
-print()
+print("ラスト3秒で得意技の面を決めて優勝")
 
 
 
